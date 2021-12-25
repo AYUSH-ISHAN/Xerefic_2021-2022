@@ -16,9 +16,9 @@ from environment import Vasuki
 
 config = {'n': 8, 'rewards': {'Food': 4, 'Movement': -1, 'Illegal': -2}, 'game_length': 100} # Should not change for evaluation
 env = Vasuki(**config)
-num_states = env.observation_space.shape[0]
+num_states = 8#env.observation_space.shape[0]
 print("Size of State Space ->  {}".format(num_states))
-num_actions = env.action_space.shape
+num_actions = 3#env.action_space.shape
 print("Size of Action Space ->  {}".format(num_actions))
 
 upper_bound = 1   # env.action_space.high[0]
