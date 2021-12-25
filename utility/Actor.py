@@ -9,7 +9,7 @@ import tensorflow as tf
 
 env = gym.make('LunarLander-v2')
 num_states = env.observation_space.shape[0]
-num_actions = 1 #env.action_space.shape
+num_actions = 3 #env.action_space.shape
 
 upper_bound = 1   #env.action_space.high[0]
 lower_bound = -1    #env.action_space.low[0]
