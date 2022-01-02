@@ -153,7 +153,10 @@ for episode in tqdm(range(1, EPISODES+1), ascii='True', unit='episodes'):
             if np.random.random() > EPSILON:
                 action = np.argmax(agent.fetch_Qs(current_state))
             else:
-                action = np.random.randint(0, 4)
+                # action = np.random.randint(0, 4)
+                action = {}
+                action['actionA'] = np.random.randint(0, 4) 
+                action['actionB'] = np.random.randint(0, 4) 
 
             new_state, reward, done, _ = env.step(action)
 
@@ -202,8 +205,6 @@ plt.show()
 I THINK I AM DONE !!
 '''
 ###########################################################################################################################
-
-
 
 
 
