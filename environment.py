@@ -75,9 +75,9 @@ class Vasuki(Env):
         self.agentA = self._init_agent_()
         self.agentB = self._init_agent_()
         # Loading the Images
-        self.image_agentA = self._init_image_("agentA.png")
-        self.image_agentB = self._init_image_("agentB.png")
-        self.image_prey = self._init_image_("prey.png")
+        self.image_agentA = self._init_image_("assets/agentA.png")
+        self.image_agentB = self._init_image_("assets/agentB.png")
+        self.image_prey = self._init_image_("assets/prey.png")
         # Creating History
         encoded, _ = self.encode()
         self.history = [] # {"agentA": self.agentA, "agentB":self.agentB, "live_foodspawn_space": self.live_foodspawn_space, 'encoded': encoded}
@@ -211,8 +211,15 @@ class Vasuki(Env):
         return reward
 
     def step(self, action):
-        actionA = action['actionA']
-        actionB = action['actionB']
+        try:
+            actionA = action['actionA']
+            actionB = action['actionB']
+        except:
+            action = {}
+            action['actionA'] = np.random.randint(0, 4) 
+            action['actionB'] = np.random.randint(0, 4)  
+            actionA = action['actionA']
+            actionB = action['actionB']
         # Applying the actions
         self.agentA, illegalA = self._movement_(actionA, self.agentA)
         self.agentB, illegalB = self._movement_(actionB, self.agentB) 
