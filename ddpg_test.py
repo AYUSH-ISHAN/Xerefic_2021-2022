@@ -29,7 +29,7 @@ Critic = Critic()
 Orn_Uhl = Ornstein_Uhlenbeck()
 
 REPLAY_MEMORY_SIZE = 50_000
-EPISODES = 20
+EPISODES = 45
 NUM_TRANS = 10
 MIN_Replay = 5_000
 MINI_BATCH_SIZE = 1000
