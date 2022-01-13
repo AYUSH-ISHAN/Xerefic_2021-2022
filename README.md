@@ -30,7 +30,7 @@ A breief description on the environment is given below:
       <ul>
       <li>If (s1 > s2,) r1 = 5 s2/(s1-s2) and r2 = -3 s2/(s1-s2)</li>
       <li>If (s1 <s 2,) r1 = -3 s1/(s2-s2) and r2 = 5 s1/(s2-s1)</li>
-      </ul>
+      </ul></li>
   </ul>
 <h4>Evaluation Metric:</h4>
     • Every game lasts for a maximum of (game_length = 100) iterations.
