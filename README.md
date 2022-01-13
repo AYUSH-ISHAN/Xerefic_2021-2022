@@ -26,8 +26,8 @@ A breief description on the environment is given below:
     • -2 for illegal moves
     • +4 for consuming food
     • Collision
-        ◦ If (s1 > s2,) r1 = 5 s2/(s1-s2) and r2 = -3 s2/(s1-s2)
-        ◦ If (s1 <s 2,) r1 = -3 s1/(s2-s2) and r2 = 5 s1/(s2-s1)
+      If (s1 > s2,) r1 = 5 s2/(s1-s2) and r2 = -3 s2/(s1-s2)
+      If (s1 <s 2,) r1 = -3 s1/(s2-s2) and r2 = 5 s1/(s2-s1)
 <h4>Evaluation Metric:</h4>
     • Every game lasts for a maximum of (game_length = 100) iterations.
     • The agent with the greater score wins the game.
