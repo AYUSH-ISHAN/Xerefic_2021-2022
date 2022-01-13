@@ -8,16 +8,16 @@ The environment consists of two snakes (agents) and 4 food locations at any in
 A breief description on the environment is given below:
 <h4>State Space:</h4>
   <ul>
-    <li>The state space is characterised by a(8 x 8)Grid (Continious Space).<li>
-    <li>At any instant of time,(4)random coordinates out of(8)fixed coordinates possess food.<li>
+    <li>The state space is characterised by a(8 x 8)Grid (Continious Space).</li>
+    <li>At any instant of time,(4)random coordinates out of(8)fixed coordinates possess food.</li>
   </ul>
 <h4>Action Space:</h4>
   <ul>
-    <li>The agent may choose one of the three possible moves; left, right, forward at any instant.<li>
-    <li>Depending on the position of the agent, the move may or may not be executed.<li>
+    <li>The agent may choose one of the three possible moves; left, right, forward at any instant.</li>
+    <li>Depending on the position of the agent, the move may or may not be executed./<li>
   <ul>
-        <li>For instance, if the agent lies on the first row and is facing North, and decides to move left, the move will be determined illegal and the agent will not be displaced. Although the move does not take place, the agent will be turned to face West.<li>
-        <li>That is, the agent will first turn to left and then try to move. Since the move is illegal, the agent stays put.<li>
+        <li>For instance, if the agent lies on the first row and is facing North, and decides to move left, the move will be determined illegal and the agent will not be displaced. Although the move does not take place, the agent will be turned to face West.</li>
+        <li>That is, the agent will first turn to left and then try to move. Since the move is illegal, the agent stays put.</li>
   </ul>
   </ul>
 <h4>Rules:</h4>
