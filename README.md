@@ -22,12 +22,16 @@ A breief description on the environment is given below:
         ◦ If(s1 < s2,)r1 = -3 s1/(s2-s1) and r2 = 5 s1/(s2-s1)
     3. After collison, the agent with the lesser score is randomly respawned.
 <h4>Reward System:</h4>
-    • -1 for legal moves
-    • -2 for illegal moves
-    • +4 for consuming food
-    • Collision
-    If (s1 > s2,) r1 = 5 s2/(s1-s2) and r2 = -3 s2/(s1-s2)
-    If (s1 <s 2,) r1 = -3 s1/(s2-s2) and r2 = 5 s1/(s2-s1)
+  <ul>
+    <li>-1 for legal moves</li>
+    <li>-2 for illegal moves</li>
+    <li>+4 for consuming food</li>
+    <li>Collision
+      <ul>
+      <li>If (s1 > s2,) r1 = 5 s2/(s1-s2) and r2 = -3 s2/(s1-s2)</li>
+      <li>If (s1 <s 2,) r1 = -3 s1/(s2-s2) and r2 = 5 s1/(s2-s1)</li>
+      </ul>
+  </ul>
 <h4>Evaluation Metric:</h4>
     • Every game lasts for a maximum of (game_length = 100) iterations.
     • The agent with the greater score wins the game.
