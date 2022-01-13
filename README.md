@@ -5,7 +5,7 @@
 <h3>Game Description:</h3>
   
 The environment consists of two snakes (agents) and 4 food locations at any instant. The snakes (agents) can move in three directions; namely left, right or straight ahead. The objective of the game is to possess a greater score than the opponent either by consuming the food or by colliding with the opponent.
-A breief description on the environment is given below:
+A breif description on the environment is given below:
 <h4>State Space:</h4>
   <ul>
     <li>The state space is characterised by a(8 x 8)Grid (Continious Space).</li>
@@ -52,7 +52,8 @@ A breief description on the environment is given below:
 <h3>Our Approach :</h3>
 
 The given system resembles with the descrete actions spaced environement of the atari games or the open AI gym envs. So, a natural choice would be to use the architecture based on nueral networks. In this environement there are two agents playing against other that means it is a competative environement with descrete action space. On basis of this analysis we chose DQN od deep Q networks as our architecture with epsiolon greedy as its policy as shown below.
-In this DQN algorithm, we are udating the target algorithm after every 5 training steps and the training steps starts when our algorithm has a minimum of 1000 units of memory size and maximum it can go upto 50, 000 units. By this we ensure we have enough state sapce or the data for both the agents to give tough fight to each other. 
+<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/DQN.png">
+In this DQN algorithm, we are udating the target algorithm after every 5 training steps and the training steps starts when our algorithm has a minimum of 1000 units of memory size and maximum it can go upto 50,000 units. By this we ensure we have enough state sapce or the data for both the agents to give tough fight to each other. 
 
           Here, is the list of hyperparameters which we have used : 
 
