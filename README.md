@@ -51,8 +51,11 @@ A breif description on the environment is given below:
   </ul>
   
 <br>
-In the below shown images we have our two agents and the prey : <br>
-<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentA.png" align ="left"/><img src ="https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentB.png" align ="center"/><img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/prey.png" align = "right"/>
+In the below shown images we have our two agents and the prey :
+<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentA.png"></img>
+<img src ="https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentB.png"></img>
+<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/prey.png"></img>
+
 <h3>Our Approach :</h3>
 
 The given system resembles with the descrete actions spaced environement of the atari games or the open AI gym envs. So, a natural choice would be to use the architecture based on nueral networks. In this environement there are two agents playing against other that means it is a competative environement with descrete action space. On basis of this analysis we chose DQN od deep Q networks as our architecture with epsiolon greedy as its policy as shown below.<br>
