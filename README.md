@@ -1,4 +1,4 @@
-<h1>Xerefic – Shaastra 2021-22<h2>
+<h1>Xerefic – Shaastra 2021-22</h1>
 
 <h2>Problem Statement :</h2>
 
