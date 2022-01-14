@@ -1,5 +1,7 @@
 <h1>Xerefic – Shaastra 2021-22</h1>
 
+<h2>By -> Team Rocket</h2> (See bottom for team members)
+
 <h2>Problem Statement :</h2>
 
 <h3>Game Description:</h3>
@@ -123,5 +125,22 @@ Also the optimizer which we used up was Adam with learning rate of 0.001.
 <p>
   DDQN or Dueling Deep Q Networks is a reinforcement learning algorithms that tries to create a Q value via two function estimators: one that estimates the        advantage function, and another that estimates the value function.</p>
 
+<h3>Team Members: </h3>
 
+<table>
+ <td align="center">
+     <a href="https://github.com/Srini-Rohan">
+    <img src="https://avatars.githubusercontent.com/u/76437900?v=4" width="100px;" alt=""/><br /><sub><b>Gujulla Leel Srini Rohan</b></sub></a><br />
+    </td>
+  <td align="center">
+     <a href="https://github.com/AYUSH-ISHAN">
+    <img src="https://avatars.githubusercontent.com/u/77822265?v=4" width="100px;" alt=""/><br /><sub><b>Ayush Ishan</b></sub></a><br />
+	</td>
+  <td align="center">
+     <a href="https://github.com/vivekagarwal2349">
+    <img src="https://avatars.githubusercontent.com/u/75940729?v=4" width="100px;" alt=""/><br /><sub><b>Vivek Agarwal</b></sub></a><br />
+	</td>
+
+
+</table>
 
