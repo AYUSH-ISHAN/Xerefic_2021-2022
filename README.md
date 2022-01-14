@@ -49,6 +49,11 @@ A breif description on the environment is given below:
     <li>Play runs = 1000 games against the opponent.</li>
     <li>The agent with higher number of victories wins the bracket.</li>
   </ul>
+  
+<br>
+In the below shown images we have our two agents and the prey : <br>
+<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentA.png" align = "left"/><img src ="https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentB.png" align ="right"/><br>
+<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/prey.png" align = "center"/>
 <h3>Our Approach :</h3>
 
 The given system resembles with the descrete actions spaced environement of the atari games or the open AI gym envs. So, a natural choice would be to use the architecture based on nueral networks. In this environement there are two agents playing against other that means it is a competative environement with descrete action space. On basis of this analysis we chose DQN od deep Q networks as our architecture with epsiolon greedy as its policy as shown below.<br>
@@ -108,10 +113,9 @@ Also the optimizer which we used up was Adam with learning rate of 0.001.
 
 <h3>Alternatice Approaches :</h3>
 
-1. DDPG : The file for DDPG is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddpg_test.py'>link</a>
-   The algorithm of DDPG is shown in below figure : 
-   
-   <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/DDPG.png" align = "center"/>
+1. DDPG : The file for DDPG is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddpg_test.py'>link</a><br>
+   The algorithm of DDPG is shown in below figure : <br>
+   <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/DDPG.png" align = "center"/><br>
 3. DDQN : The file for DDQN is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddqn.py'>link</a>
 
 
