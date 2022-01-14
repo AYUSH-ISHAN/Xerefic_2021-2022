@@ -115,10 +115,10 @@ Also the optimizer which we used up was Adam with learning rate of 0.001.
 
 <h3>Alternatice Approaches :</h3>
 
-1. DDPG : The file for DDPG is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddpg_test.py'>link</a><br>
+<B>1. DDPG :</B> The file for DDPG is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddpg_test.py'>link</a><br>
    The algorithm of DDPG is shown in below figure : <br>
    <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/DDPG.png" align = "center"/><br>
-2. DDQN : The file for DDQN is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddqn.py'>link</a><br>
+<B>2. DDQN :</B> The file for DDQN is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddqn.py'>link</a><br>
 
   DDQN or Dueling Deep Q Networks is a reinforcement learning algorithms that tries to create a Q value via two function estimators: one that estimates the        advantage function, and another that estimates the value function.
 
