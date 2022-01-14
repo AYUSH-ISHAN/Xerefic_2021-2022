@@ -104,7 +104,15 @@ We have also done further modification in this DQN is that we have been decreasi
 
 Also the optimizer which we used up was Adam with learning rate of 0.001.
 
-
-
-
 ***************************************************
+
+<h3>Alternatice Approaches :</h3>
+
+1. DDPG : The file for DDPG is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddpg_test.py'>link</a>
+   The algorithm of DDPG is shown in below figure : 
+   
+   <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/DDPG.png" align = "center"/>
+3. DDQN : The file for DDQN is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddqn.py'>link</a>
+
+
+
