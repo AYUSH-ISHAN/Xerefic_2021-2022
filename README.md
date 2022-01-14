@@ -52,7 +52,7 @@ A breif description on the environment is given below:
   
 <br>
 In the below shown images we have our two agents and the prey : <br>
-<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentA.png" align = "left"/><img src ="https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentB.png" align ="right"/><br>
+<img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentA.png"/><img src ="https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentB.png"/><br>
 <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/prey.png" align = "center"/>
 <h3>Our Approach :</h3>
 
