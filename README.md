@@ -52,10 +52,11 @@ A breif description on the environment is given below:
   
 <br>
 In the below shown images we have our two agents and the prey :
+<p align = "center">
 <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentA.png" align = "center" height = "200" width = "200"></img>
 <img src ="https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/agentB.png" align = "center" height = "200" width = "200"></img>
 <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/prey.png" align = "center" height = "200" width = "200"></img>
-
+</p>
 <h3>Our Approach :</h3>
 
 The given system resembles with the descrete actions spaced environement of the atari games or the open AI gym envs. So, a natural choice would be to use the architecture based on nueral networks. In this environement there are two agents playing against other that means it is a competative environement with descrete action space. On basis of this analysis we chose DQN od deep Q networks as our architecture with epsiolon greedy as its policy as shown below.<br>
@@ -119,8 +120,8 @@ Also the optimizer which we used up was Adam with learning rate of 0.001.
    The algorithm of DDPG is shown in below figure : <br>
    <img src = "https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/DDPG.png" align = "center"/><br>
 <B>2. DDQN :</B> The file for DDQN is -- <a href = 'https://github.com/AYUSH-ISHAN/Xerefic_2021-2022/blob/main/ddqn.py'>link</a><br>
-
-  DDQN or Dueling Deep Q Networks is a reinforcement learning algorithms that tries to create a Q value via two function estimators: one that estimates the        advantage function, and another that estimates the value function.
+<p>
+  DDQN or Dueling Deep Q Networks is a reinforcement learning algorithms that tries to create a Q value via two function estimators: one that estimates the        advantage function, and another that estimates the value function.</p>
 
 
 
